@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923C8B271F0D7ECB00332052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B261F0D7ECB00332052 /* AppDelegate.swift */; };
+		923C8B291F0D7ECB00332052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B281F0D7ECB00332052 /* ViewController.swift */; };
+		923C8B2C1F0D7ECB00332052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923C8B2A1F0D7ECB00332052 /* Main.storyboard */; };
+		923C8B2F1F0D7ECB00332052 /* BAER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B2D1F0D7ECB00332052 /* BAER.xcdatamodeld */; };
+		923C8B311F0D7ECB00332052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923C8B301F0D7ECB00332052 /* Assets.xcassets */; };
+		923C8B341F0D7ECB00332052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923C8B321F0D7ECB00332052 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		923C8B231F0D7ECB00332052 /* BAER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923C8B261F0D7ECB00332052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		923C8B281F0D7ECB00332052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		923C8B2B1F0D7ECB00332052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923C8B2E1F0D7ECB00332052 /* BAER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BAER.xcdatamodel; sourceTree = "<group>"; };
+		923C8B301F0D7ECB00332052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923C8B331F0D7ECB00332052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		923C8B351F0D7ECB00332052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923C8B201F0D7ECB00332052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923C8B1A1F0D7ECB00332052 = {
+			isa = PBXGroup;
+			children = (
+				923C8B251F0D7ECB00332052 /* BAER */,
+				923C8B241F0D7ECB00332052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923C8B241F0D7ECB00332052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923C8B231F0D7ECB00332052 /* BAER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923C8B251F0D7ECB00332052 /* BAER */ = {
+			isa = PBXGroup;
+			children = (
+				923C8B261F0D7ECB00332052 /* AppDelegate.swift */,
+				923C8B281F0D7ECB00332052 /* ViewController.swift */,
+				923C8B2A1F0D7ECB00332052 /* Main.storyboard */,
+				923C8B301F0D7ECB00332052 /* Assets.xcassets */,
+				923C8B321F0D7ECB00332052 /* LaunchScreen.storyboard */,
+				923C8B351F0D7ECB00332052 /* Info.plist */,
+				923C8B2D1F0D7ECB00332052 /* BAER.xcdatamodeld */,
+			);
+			path = BAER;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923C8B221F0D7ECB00332052 /* BAER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923C8B381F0D7ECB00332052 /* Build configuration list for PBXNativeTarget "BAER" */;
+			buildPhases = (
+				923C8B1F1F0D7ECB00332052 /* Sources */,
+				923C8B201F0D7ECB00332052 /* Frameworks */,
+				923C8B211F0D7ECB00332052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BAER;
+			productName = BAER;
+			productReference = 923C8B231F0D7ECB00332052 /* BAER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923C8B1B1F0D7ECB00332052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shouki Souri";
+				TargetAttributes = {
+					923C8B221F0D7ECB00332052 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 923C8B1E1F0D7ECB00332052 /* Build configuration list for PBXProject "BAER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923C8B1A1F0D7ECB00332052;
+			productRefGroup = 923C8B241F0D7ECB00332052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923C8B221F0D7ECB00332052 /* BAER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923C8B211F0D7ECB00332052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923C8B341F0D7ECB00332052 /* LaunchScreen.storyboard in Resources */,
+				923C8B311F0D7ECB00332052 /* Assets.xcassets in Resources */,
+				923C8B2C1F0D7ECB00332052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923C8B1F1F0D7ECB00332052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923C8B291F0D7ECB00332052 /* ViewController.swift in Sources */,
+				923C8B271F0D7ECB00332052 /* AppDelegate.swift in Sources */,
+				923C8B2F1F0D7ECB00332052 /* BAER.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		923C8B2A1F0D7ECB00332052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923C8B2B1F0D7ECB00332052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		923C8B321F0D7ECB00332052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923C8B331F0D7ECB00332052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923C8B361F0D7ECB00332052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923C8B371F0D7ECB00332052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923C8B391F0D7ECB00332052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BAER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MedSecurePro.BAER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		923C8B3A1F0D7ECB00332052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BAER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MedSecurePro.BAER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923C8B1E1F0D7ECB00332052 /* Build configuration list for PBXProject "BAER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923C8B361F0D7ECB00332052 /* Debug */,
+				923C8B371F0D7ECB00332052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923C8B381F0D7ECB00332052 /* Build configuration list for PBXNativeTarget "BAER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923C8B391F0D7ECB00332052 /* Debug */,
+				923C8B3A1F0D7ECB00332052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		923C8B2D1F0D7ECB00332052 /* BAER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				923C8B2E1F0D7ECB00332052 /* BAER.xcdatamodel */,
+			);
+			currentVersion = 923C8B2E1F0D7ECB00332052 /* BAER.xcdatamodel */;
+			path = BAER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 923C8B1B1F0D7ECB00332052 /* Project object */;
+}
