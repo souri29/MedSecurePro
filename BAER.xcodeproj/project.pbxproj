@@ -13,6 +13,8 @@
 		923C8B2F1F0D7ECB00332052 /* BAER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B2D1F0D7ECB00332052 /* BAER.xcdatamodeld */; };
 		923C8B311F0D7ECB00332052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923C8B301F0D7ECB00332052 /* Assets.xcassets */; };
 		923C8B341F0D7ECB00332052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923C8B321F0D7ECB00332052 /* LaunchScreen.storyboard */; };
+		923C8B3C1F10333D00332052 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B3B1F10333D00332052 /* MenuViewController.swift */; };
+		923C8B401F103A4900332052 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B3F1F103A4900332052 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		923C8B301F0D7ECB00332052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923C8B331F0D7ECB00332052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		923C8B351F0D7ECB00332052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923C8B3B1F10333D00332052 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		923C8B3F1F103A4900332052 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				923C8B321F0D7ECB00332052 /* LaunchScreen.storyboard */,
 				923C8B351F0D7ECB00332052 /* Info.plist */,
 				923C8B2D1F0D7ECB00332052 /* BAER.xcdatamodeld */,
+				923C8B3B1F10333D00332052 /* MenuViewController.swift */,
+				923C8B3F1F103A4900332052 /* MenuTableViewCell.swift */,
 			);
 			path = BAER;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 				923C8B291F0D7ECB00332052 /* ViewController.swift in Sources */,
 				923C8B271F0D7ECB00332052 /* AppDelegate.swift in Sources */,
 				923C8B2F1F0D7ECB00332052 /* BAER.xcdatamodeld in Sources */,
+				923C8B3C1F10333D00332052 /* MenuViewController.swift in Sources */,
+				923C8B401F103A4900332052 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

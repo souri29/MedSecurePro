@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "logo_trans.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "ham_icon.png",
       "scale" : "2x"
     },
     {
