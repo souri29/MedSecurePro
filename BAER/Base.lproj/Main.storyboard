@@ -92,7 +92,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="menu_tableView" destination="KtO-pJ-N4I" id="cSs-dc-ziJ"/>
+                        <outlet property="menu_tableView" destination="KtO-pJ-N4I" id="RM4-Jq-bCS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4LB-dD-JZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
