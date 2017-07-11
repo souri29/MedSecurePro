@@ -10,7 +10,9 @@ import UIKit
 
 class MenuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    let title_arr = ["Home", "About Us", "Help"]
+    //let title_arr = ["Home", "About Us", "Help"]
+    
+    let title_arr = ["Support-50"]
     
     @IBOutlet weak var menu_tableView: UITableView!
     
@@ -33,6 +35,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "menu_cell") as! MenuTableViewCell
+        cell.myImage.image = UIImage(named: title_arr[indexPath.row] + ".png")
         cell.label_title.text = title_arr[indexPath.row]
         return (cell)
         
