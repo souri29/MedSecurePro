@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "Brain-30"))
+        
         menu_vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondtoGesture))
