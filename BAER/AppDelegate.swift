@@ -17,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = UIColor.blue
+        UINavigationBar.appearance().tintColor = UIColor.orange
+        
+        let navigationFont = UIFont(name: "AvenirNextCondensed-DemiBold", size: 18)!
+        let navigationFontAttributes = [NSFontAttributeName: navigationFont]
+        UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
+        
         return true
     }
 
