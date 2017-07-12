@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     {
         UIView.animate(withDuration: 0.3) { ()-> Void in
         self.menu_vc.view.frame = CGRect(x: 0, y: 60, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-        self.menu_vc.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+        self.menu_vc.view.backgroundColor = UIColor.white.withAlphaComponent(0.6)
         self.addChildViewController(self.menu_vc)
         self.view.addSubview(self.menu_vc.view)
         AppDelegate.menu_bool = false
