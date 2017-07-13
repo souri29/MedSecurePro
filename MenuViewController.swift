@@ -22,6 +22,22 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
         menu_tableView.delegate = self
         menu_tableView.dataSource = self
+        
+        
+        // Adding Header and Footer Views
+        let headerView = UIView()
+        headerView.backgroundColor = UIColor(red:0.04, green:0.19, blue:0.43, alpha:0.6)
+        headerView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 50)
+        
+        
+        let footerView = UIView()
+        footerView.backgroundColor = UIColor(red:0.04, green:0.19, blue:0.43, alpha:0.6)
+        
+        footerView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 30)
+        
+        menu_tableView.tableHeaderView = headerView
+        menu_tableView.tableFooterView = footerView
+        
     }
 
     override func didReceiveMemoryWarning() {

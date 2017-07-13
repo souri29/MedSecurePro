@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         
         self.view.addGestureRecognizer(swipeRight)
         self.view.addGestureRecognizer(swipeLeft)
+        
     }
 
     func respondtoGesture(gesture : UISwipeGestureRecognizer)

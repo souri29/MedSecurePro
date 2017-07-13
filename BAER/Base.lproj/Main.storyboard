@@ -50,10 +50,10 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KtO-pJ-N4I">
                                 <rect key="frame" x="0.0" y="0.0" width="275" height="667"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="separatorColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="separatorColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menu_cell" id="9so-9G-PbT" customClass="MenuTableViewCell" customModule="BAER" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="275" height="44"/>
@@ -85,7 +85,7 @@
                                                 <constraint firstItem="Wn1-io-BEX" firstAttribute="leading" secondItem="v2p-tM-Yct" secondAttribute="trailing" constant="22" id="yTJ-hA-XLA"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="label_title" destination="Wn1-io-BEX" id="dui-tn-tJV"/>
                                             <outlet property="myImage" destination="v2p-tM-Yct" id="WJf-3h-2uJ"/>
@@ -115,7 +115,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Sc-Cx-9xh" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="c9a-Gd-bAo">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c9a-Gd-bAo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
