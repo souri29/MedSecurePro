@@ -12,7 +12,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     //let title_arr = ["Home", "About Us", "Help"]
     
-    let title_arr = ["Support-50", "Bluetooth-30", "Brain-30", "Alarm-30", "Headset-30", "Help-30"]
+    let title_arr = ["Bluetooth", "Headset Settings", "Account Settings", "Help"]
     
     @IBOutlet weak var menu_tableView: UITableView!
     

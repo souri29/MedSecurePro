@@ -18,13 +18,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        // Change color of the whole bar
         UINavigationBar.appearance().barTintColor = UIColor(red:0.03, green:0.11, blue:0.95, alpha:1.0)
         //UINavigationBar.appearance().barTintColor = UIColor.blue
+        
+        //Change color for the navigation items
         UINavigationBar.appearance().tintColor = UIColor.orange
         
         let navigationFont = UIFont(name: "AvenirNextCondensed-DemiBold", size: 18)!
         let navigationFontAttributes = [NSFontAttributeName: navigationFont]
         UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
+        
+        //Change color to the title
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+
+        //Change color of battety and Wifi images
+        // set View controller-based status bar appearance  = NO in the info.plist (must be done first)
+        UIApplication.shared.statusBarStyle = .lightContent
         
         return true
     }
