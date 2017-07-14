@@ -16,6 +16,14 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var menu_tableView: UITableView!
     
+/*
+    func myLabel () -> UILabel {
+        let label = UILabel()
+        label.text = "Hello"
+        label.textColor = UIColor.white
+        return label
+    }
+*/
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,6 +36,9 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         let headerView = UIView()
         headerView.backgroundColor = UIColor(red:0.04, green:0.19, blue:0.43, alpha:0.6)
         headerView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 50)
+        
+        //myLabel().frame = CGRect (x: view.frame.width / 2 - 100, y: view.frame.height / 2 - 100, width: 200, height: 50)
+        //view.addSubview(myLabel())
         
         
         let footerView = UIView()
