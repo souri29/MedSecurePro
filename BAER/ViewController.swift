@@ -26,7 +26,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "Brain-30"))
+        // Adding an image to the main controller top image
+        //self.navigationItem.titleView = UIImageView(image: UIImage(named: "Brain-30"))
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "welcome_image_30_trans"))
         
         menu_vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         
