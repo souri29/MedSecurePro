@@ -17,6 +17,7 @@
 		923C8B401F103A4900332052 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C8B3F1F103A4900332052 /* MenuTableViewCell.swift */; };
 		926922FB1F1955D7009B0802 /* connectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926922FA1F1955D7009B0802 /* connectViewController.swift */; };
 		926922FD1F196EE4009B0802 /* PairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926922FC1F196EE4009B0802 /* PairViewController.swift */; };
+		92C03E1F1F1A5F7700D0A0F4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C03E1E1F1A5F7700D0A0F4 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		923C8B3F1F103A4900332052 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		926922FA1F1955D7009B0802 /* connectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = connectViewController.swift; sourceTree = "<group>"; };
 		926922FC1F196EE4009B0802 /* PairViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairViewController.swift; sourceTree = "<group>"; };
+		92C03E1E1F1A5F7700D0A0F4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C03E1F1F1A5F7700D0A0F4 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 			children = (
 				923C8B251F0D7ECB00332052 /* BAER */,
 				923C8B241F0D7ECB00332052 /* Products */,
+				92C03E1D1F1A5F7700D0A0F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				926922FC1F196EE4009B0802 /* PairViewController.swift */,
 			);
 			path = BAER;
+			sourceTree = "<group>";
+		};
+		92C03E1D1F1A5F7700D0A0F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C03E1E1F1A5F7700D0A0F4 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
