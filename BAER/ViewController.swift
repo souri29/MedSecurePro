@@ -14,7 +14,6 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
     var menu_vc : MenuViewController!
     var myBTManager: CBPeripheralManager?
     
-    
     @IBAction func slideMenu(_ sender: UIBarButtonItem) {
         
         if AppDelegate.menu_bool {
@@ -24,32 +23,12 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
         }
     }
     
-    func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
-        print(#function)
-        if peripheral.state == CBManagerState.poweredOn {
-            print("Broadcasting...")
-            //    myBTManager!.startAdvertising(_broadcastBeaconDict)
-        } else if peripheral.state == CBManagerState.poweredOff {
-            print("Stopped")
-            myBTManager!.stopAdvertising()
-        } else if peripheral.state == CBManagerState.unsupported {
-            print("Unsupported")
-        } else if peripheral.state == CBManagerState.unauthorized {
-            print("This option is not allowed by your application")
-        } else if peripheral.state == CBManagerState.resetting {
-            print("Resetting")
-        } else if peripheral.state == CBManagerState.unknown {
-            print("unknown")
-        }
-
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         myBTManager = CBPeripheralManager(delegate: self, queue: nil, options: nil)
-        
+
         // Adding an image to the main controller top image
         //self.navigationItem.titleView = UIImageView(image: UIImage(named: "Brain-30"))
         self.navigationItem.titleView = UIImageView(image: UIImage(named: "welcome_image_30_trans"))
@@ -65,6 +44,28 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
         self.view.addGestureRecognizer(swipeRight)
         self.view.addGestureRecognizer(swipeLeft)
         
+    }
+    
+    
+    func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
+    print(#function)
+    if peripheral.state == CBManagerState.poweredOn {
+    print("Broadcasting...")
+    //    myBTManager!.startAdvertising(_broadcastBeaconDict)
+    } else if peripheral.state == CBManagerState.poweredOff {
+    print("Stopped")
+    myBTManager!.stopAdvertising()
+    } else if peripheral.state == CBManagerState.unsupported {
+    print("Unsupported")
+    } else if peripheral.state == CBManagerState.unauthorized {
+    print("This option is not allowed by your application")
+    } else if peripheral.state == CBManagerState.resetting {
+    print("Resetting")
+    } else if peripheral.state == CBManagerState.unknown {
+    print("unknown")
+    
+    }
+    
     }
 
     func respondtoGesture(gesture : UISwipeGestureRecognizer)

@@ -23,17 +23,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ijk-hC-UeG">
-                                <rect key="frame" x="16" y="142" width="343" height="132"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="bJx-qn-0Qb"/>
-                                    <constraint firstAttribute="height" constant="131.5" id="oCy-dY-zfF"/>
-                                </constraints>
-                                <string key="text">MedSecurePro BAER Diagnostic mobile app is a tool that provides "click" Stimuli and downloads, measure and analyize Brainstem Auditory Evoked Responses in real-time via Bluetooth for hearing and other health diagnosis.</string>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0L-KD-K1G">
                                 <rect key="frame" x="96" y="554.5" width="183" height="30"/>
                                 <color key="backgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,36 +38,39 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to BAER Control Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="49u-70-hwa">
                                 <rect key="frame" x="16" y="89" width="343" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="hOL-bF-9ny"/>
-                                    <constraint firstAttribute="width" constant="343" id="wUp-VM-MFQ"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="welcome_image_240_trans_fr" translatesAutoresizingMaskIntoConstraints="NO" id="ls9-Fg-xNd">
-                                <rect key="frame" x="106" y="301" width="162" height="171.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="ls9-Fg-xNd" secondAttribute="height" multiplier="18:19" id="z9h-dY-YlC"/>
-                                </constraints>
+                                <rect key="frame" x="106" y="280.5" width="163" height="192"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ijk-hC-UeG">
+                                <rect key="frame" x="16" y="122" width="343" height="131.5"/>
+                                <string key="text">MedSecurePro BAER Diagnostic mobile app is a tool that provides "click" Stimuli and downloads, measure and analyize Brainstem Auditory Evoked Responses in real-time via Bluetooth for hearing and other health diagnosis.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="49u-70-hwa" secondAttribute="trailing" constant="16" id="02q-fy-shb"/>
                             <constraint firstItem="Ijk-hC-UeG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="2sD-x2-48h"/>
+                            <constraint firstItem="49u-70-hwa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="5IZ-1s-HJz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d0L-KD-K1G" secondAttribute="bottom" constant="82.5" id="6D3-0G-d1k"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ls9-Fg-xNd" secondAttribute="trailing" constant="90" id="CQH-1I-jFl"/>
                             <constraint firstItem="ls9-Fg-xNd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="90" id="Jbz-zp-bhW"/>
                             <constraint firstItem="d0L-KD-K1G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="Lf4-mi-laf"/>
                             <constraint firstItem="d0L-KD-K1G" firstAttribute="top" secondItem="ls9-Fg-xNd" secondAttribute="bottom" constant="81.5" id="QeW-kN-3xa"/>
-                            <constraint firstItem="49u-70-hwa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="TBb-8T-DRb"/>
-                            <constraint firstItem="49u-70-hwa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="Ygp-AJ-RwN"/>
-                            <constraint firstAttribute="trailing" secondItem="49u-70-hwa" secondAttribute="trailing" constant="16" id="YoA-Kg-W2q"/>
+                            <constraint firstItem="49u-70-hwa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="avo-F9-fOK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="d0L-KD-K1G" secondAttribute="trailing" constant="80" id="cZm-u3-qKC"/>
+                            <constraint firstItem="ls9-Fg-xNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g7Q-rq-pV7"/>
+                            <constraint firstItem="Ijk-hC-UeG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jJe-lY-jeS"/>
                             <constraint firstItem="ls9-Fg-xNd" firstAttribute="top" secondItem="Ijk-hC-UeG" secondAttribute="bottom" constant="27" id="jfo-Fg-N06"/>
                             <constraint firstAttribute="trailing" secondItem="Ijk-hC-UeG" secondAttribute="trailing" constant="16" id="lEw-Bb-iQn"/>
-                            <constraint firstItem="Ijk-hC-UeG" firstAttribute="top" secondItem="49u-70-hwa" secondAttribute="bottom" constant="28" id="mSQ-mR-zkh"/>
+                            <constraint firstItem="49u-70-hwa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="owU-Z7-MzY"/>
+                            <constraint firstItem="Ijk-hC-UeG" firstAttribute="top" secondItem="49u-70-hwa" secondAttribute="bottom" constant="8" id="tJe-aX-vZw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Control Center" id="xh7-G4-T6N">
@@ -174,7 +166,7 @@
         <!--Bluetooth Pairing-->
         <scene sceneID="2aW-Ry-Or0">
             <objects>
-                <viewController title="Bluetooth Pairing" id="aa1-F6-CTm" customClass="PairViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PairViewController" title="Bluetooth Pairing" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aa1-F6-CTm" customClass="PairViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vZm-IX-DuZ"/>
                         <viewControllerLayoutGuide type="bottom" id="OZ0-5C-WZz"/>
@@ -184,44 +176,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bluetooth Paring with TP9 Device" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orj-xo-ApG">
-                                <rect key="frame" x="16" y="323" width="343" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="Lzl-Xb-i6i"/>
-                                    <constraint firstAttribute="height" constant="21" id="TYg-SA-m0M"/>
-                                </constraints>
+                                <rect key="frame" x="49" y="322" width="277" height="23.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f5h-Uo-2Js">
-                                <rect key="frame" x="169" y="194" width="37" height="37"/>
-                                <color key="color" red="0.91764705879999997" green="0.37254901959999998" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
-                            </activityIndicatorView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paring with TP9 device.  Please wait few seconds while we connect to your TP9 BAER device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOb-Y0-5gD">
-                                <rect key="frame" x="16" y="363" width="343" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="UbS-pG-5Bm"/>
-                                    <constraint firstAttribute="height" constant="88" id="mSO-ZV-JOp"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="360.5" width="343" height="66"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f5h-Uo-2Js">
+                                <rect key="frame" x="169" y="194" width="37" height="36"/>
+                                <color key="color" red="0.91764705879999997" green="0.37254901959999998" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="FOb-Y0-5gD" secondAttribute="trailing" constant="16" id="0DO-PJ-hky"/>
-                            <constraint firstAttribute="trailing" secondItem="orj-xo-ApG" secondAttribute="trailing" constant="16" id="0TU-hJ-B84"/>
-                            <constraint firstItem="f5h-Uo-2Js" firstAttribute="top" secondItem="vZm-IX-DuZ" secondAttribute="bottom" constant="130" id="1F1-8n-OaA"/>
-                            <constraint firstAttribute="trailing" secondItem="f5h-Uo-2Js" secondAttribute="trailing" constant="169" id="4C6-vD-JVL"/>
-                            <constraint firstItem="FOb-Y0-5gD" firstAttribute="leading" secondItem="TU6-0O-POT" secondAttribute="leading" constant="16" id="6se-0s-Sky"/>
-                            <constraint firstItem="orj-xo-ApG" firstAttribute="leading" secondItem="TU6-0O-POT" secondAttribute="leading" constant="16" id="8R1-hY-FJw"/>
-                            <constraint firstItem="OZ0-5C-WZz" firstAttribute="top" secondItem="FOb-Y0-5gD" secondAttribute="bottom" constant="216" id="SHm-OX-mjs"/>
-                            <constraint firstItem="orj-xo-ApG" firstAttribute="centerX" secondItem="TU6-0O-POT" secondAttribute="centerX" id="X2g-zx-5Ko"/>
-                            <constraint firstItem="FOb-Y0-5gD" firstAttribute="centerX" secondItem="TU6-0O-POT" secondAttribute="centerX" id="bHs-ks-799"/>
-                            <constraint firstItem="f5h-Uo-2Js" firstAttribute="leading" secondItem="TU6-0O-POT" secondAttribute="leading" constant="169" id="hiX-rk-4Pv"/>
-                            <constraint firstItem="orj-xo-ApG" firstAttribute="top" secondItem="f5h-Uo-2Js" secondAttribute="bottom" constant="92" id="lle-cS-s2J"/>
-                            <constraint firstItem="f5h-Uo-2Js" firstAttribute="centerX" secondItem="TU6-0O-POT" secondAttribute="centerX" id="okO-e4-Ec8"/>
+                            <constraint firstAttribute="trailing" secondItem="FOb-Y0-5gD" secondAttribute="trailing" constant="16" id="2Xq-uc-Hl6"/>
+                            <constraint firstAttribute="trailing" secondItem="f5h-Uo-2Js" secondAttribute="trailing" constant="169" id="2mD-9o-aUQ"/>
+                            <constraint firstItem="f5h-Uo-2Js" firstAttribute="centerX" secondItem="TU6-0O-POT" secondAttribute="centerX" id="AIR-3f-RFP"/>
+                            <constraint firstItem="orj-xo-ApG" firstAttribute="top" secondItem="f5h-Uo-2Js" secondAttribute="bottom" constant="92" id="Tb0-1D-Fc2"/>
+                            <constraint firstItem="FOb-Y0-5gD" firstAttribute="centerX" secondItem="TU6-0O-POT" secondAttribute="centerX" id="all-Xq-fhm"/>
+                            <constraint firstItem="f5h-Uo-2Js" firstAttribute="top" secondItem="vZm-IX-DuZ" secondAttribute="bottom" constant="130" id="ayw-8g-0hx"/>
+                            <constraint firstItem="orj-xo-ApG" firstAttribute="centerX" secondItem="TU6-0O-POT" secondAttribute="centerX" id="fxc-zj-kbp"/>
+                            <constraint firstItem="FOb-Y0-5gD" firstAttribute="top" secondItem="orj-xo-ApG" secondAttribute="bottom" constant="15" id="iiu-VD-Dha"/>
+                            <constraint firstItem="f5h-Uo-2Js" firstAttribute="leading" secondItem="TU6-0O-POT" secondAttribute="leading" constant="169" id="ikJ-Y8-odN"/>
+                            <constraint firstItem="orj-xo-ApG" firstAttribute="centerY" secondItem="TU6-0O-POT" secondAttribute="centerY" id="pmx-7j-xyq"/>
+                            <constraint firstItem="FOb-Y0-5gD" firstAttribute="leading" secondItem="TU6-0O-POT" secondAttribute="leading" constant="16" id="y0S-4F-PJD"/>
                         </constraints>
                     </view>
                 </viewController>
