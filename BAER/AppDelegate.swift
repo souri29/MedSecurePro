@@ -24,7 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Change color for the navigation items
         UINavigationBar.appearance().tintColor = UIColor.orange
-        
         let navigationFont = UIFont(name: "AvenirNextCondensed-DemiBold", size: 18)!
         let navigationFontAttributes = [NSFontAttributeName: navigationFont]
         UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
@@ -33,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
 
         //Change color of battety and Wifi images
-        // set View controller-based status bar appearance  = NO in the info.plist (must be done first)
+        //Set View controller-based status bar appearance  = NO in the info.plist (must be done first)
         UIApplication.shared.statusBarStyle = .lightContent
         
         return true

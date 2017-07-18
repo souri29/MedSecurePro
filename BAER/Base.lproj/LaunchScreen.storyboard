@@ -24,11 +24,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_image" translatesAutoresizingMaskIntoConstraints="NO" id="iil-oZ-iF6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_trans_bk_all2" translatesAutoresizingMaskIntoConstraints="NO" id="GRH-ZW-jgf">
-                                <rect key="frame" x="127.5" y="273.5" width="120" height="120"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_BRAINQUE1" translatesAutoresizingMaskIntoConstraints="NO" id="GRH-ZW-jgf">
+                                <rect key="frame" x="97.5" y="243.5" width="180" height="180"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="Uff-iV-SoF"/>
-                                    <constraint firstAttribute="height" constant="120" id="n0Z-pF-8sG"/>
+                                    <constraint firstAttribute="width" constant="180" id="Uff-iV-SoF"/>
+                                    <constraint firstAttribute="height" constant="180" id="n0Z-pF-8sG"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFJ-io-lq5">
@@ -59,6 +59,6 @@
     </scenes>
     <resources>
         <image name="bg_image" width="640" height="1136"/>
-        <image name="logo_trans_bk_all2" width="1024" height="1024"/>
+        <image name="logo_BRAINQUE1" width="16" height="16"/>
     </resources>
 </document>

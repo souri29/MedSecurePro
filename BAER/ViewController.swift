@@ -31,7 +31,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
 
         // Adding an image to the main controller top image
         //self.navigationItem.titleView = UIImageView(image: UIImage(named: "Brain-30"))
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "welcome_image_30_trans"))
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "BRAINQUE_Q_30_30"))
         
         menu_vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         
