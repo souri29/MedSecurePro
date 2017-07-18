@@ -15,6 +15,12 @@ class PairViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        print(#function)
+        
+        if let pairBlueValueStatusLocal = blueStatus {
+            print("blueStatus Value is \(pairBlueValueStatusLocal)")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

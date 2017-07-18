@@ -14,6 +14,7 @@ class connectViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print(#function)
     }
 
     override func didReceiveMemoryWarning() {

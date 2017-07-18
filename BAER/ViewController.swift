@@ -9,6 +9,8 @@
 import UIKit
 import CoreBluetooth
 
+var blueStatus: Int?
+
 class ViewController: UIViewController, CBPeripheralManagerDelegate {
     
     var menu_vc : MenuViewController!
@@ -51,18 +53,23 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
     print(#function)
     if peripheral.state == CBManagerState.poweredOn {
     print("Broadcasting...")
+    blueStatus = peripheral.state.rawValue
     //    myBTManager!.startAdvertising(_broadcastBeaconDict)
     } else if peripheral.state == CBManagerState.poweredOff {
     print("Stopped")
+    blueStatus = peripheral.state.rawValue
     myBTManager!.stopAdvertising()
     } else if peripheral.state == CBManagerState.unsupported {
     print("Unsupported")
+    blueStatus = peripheral.state.rawValue
     } else if peripheral.state == CBManagerState.unauthorized {
     print("This option is not allowed by your application")
     } else if peripheral.state == CBManagerState.resetting {
     print("Resetting")
+    blueStatus = peripheral.state.rawValue
     } else if peripheral.state == CBManagerState.unknown {
     print("unknown")
+    blueStatus = peripheral.state.rawValue
     
     }
     
@@ -114,6 +121,15 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
         }
         AppDelegate.menu_bool = true
     }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//       let PairViewController = segue.destination as! PairViewController
+//        if let blueStatusRaw = blueStatus
+//        {
+//            PairViewController.blueValueStatus = blueStatusRaw
+//        }
+//    }
+    
 
 }
 
