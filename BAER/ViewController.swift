@@ -9,6 +9,7 @@
 import UIKit
 import CoreBluetooth
 
+//Global var for the third PairViewController to read BT value
 var blueStatus: Int?
 
 class ViewController: UIViewController, CBPeripheralManagerDelegate {
@@ -122,6 +123,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate {
         AppDelegate.menu_bool = true
     }
     
+// This is how to pass params or var from one VC to another using segue
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //       let PairViewController = segue.destination as! PairViewController
 //        if let blueStatusRaw = blueStatus
