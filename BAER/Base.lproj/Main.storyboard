@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9Sc-Cx-9xh">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,34 +20,34 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0L-KD-K1G">
-                                <rect key="frame" x="96" y="554.5" width="183" height="30"/>
+                                <rect key="frame" x="100" y="623.66666666666663" width="214" height="30"/>
                                 <color key="backgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="zyq-gv-zRo"/>
                                 </constraints>
-                                <state key="normal" title="Connect TP9">
+                                <state key="normal" title="Connect Device">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="PM9-sB-PqT" kind="show" id="Lrs-6Q-RhZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to BAER Control Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="49u-70-hwa">
-                                <rect key="frame" x="16" y="89" width="343" height="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to BrainQue Control Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="49u-70-hwa">
+                                <rect key="frame" x="16" y="89" width="382" height="25"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="welcome_image_240_trans_fr" translatesAutoresizingMaskIntoConstraints="NO" id="ls9-Fg-xNd">
-                                <rect key="frame" x="106" y="280.5" width="163" height="192"/>
+                                <rect key="frame" x="110" y="301.66666666666663" width="194" height="239.99999999999989"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ijk-hC-UeG">
-                                <rect key="frame" x="16" y="122" width="343" height="131.5"/>
-                                <string key="text">MedSecurePro BAER Diagnostic mobile app is a tool that provides "click" Stimuli and downloads, measure and analyize Brainstem Auditory Evoked Responses in real-time via Bluetooth for hearing and other health diagnosis.</string>
+                                <rect key="frame" x="16" y="122" width="382" height="152.66666666666669"/>
+                                <string key="text">MedSecurePro BrainQue Diagnostic mobile app is a tool that provides "click" Stimuli and downloads, measure and analyize Brainstem Auditory Evoked Responses in real-time via Bluetooth for hearing and other health diagnosis.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -94,21 +94,21 @@
                         <viewControllerLayoutGuide type="bottom" id="UdG-j5-a42"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5iR-P2-ruX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4a-I6-RJ9">
-                                <rect key="frame" x="16" y="150" width="343" height="79"/>
+                                <rect key="frame" x="16" y="150" width="382" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="79" id="AM2-wj-24L"/>
                                 </constraints>
-                                <string key="text">Have the user wear TP9 BAER glasses with the headphone and press the power toggle button to turn it on. Click on Pair Device when done.</string>
+                                <string key="text">Have the user wear BrainQue glasses with the headphone and press the power toggle button to turn it on. Click on Pair Device when done.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A4-eu-gmf">
-                                <rect key="frame" x="95" y="582" width="185" height="30"/>
+                                <rect key="frame" x="99" y="651" width="216" height="30"/>
                                 <color key="backgroundColor" red="0.031372549020000001" green="0.1137254902" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="iNe-W7-WYE"/>
@@ -121,7 +121,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setup and Wear the Device" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZr-EZ-0E4">
-                                <rect key="frame" x="16" y="89" width="343" height="30"/>
+                                <rect key="frame" x="16" y="89" width="382" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="a7i-db-0fM"/>
                                 </constraints>
@@ -130,7 +130,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frontfaceimage_trans" translatesAutoresizingMaskIntoConstraints="NO" id="dkk-V6-YPv">
-                                <rect key="frame" x="106.5" y="282" width="162" height="171"/>
+                                <rect key="frame" x="126" y="351" width="162" height="171"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="171" id="Fc7-hY-Mbp"/>
                                     <constraint firstAttribute="width" secondItem="dkk-V6-YPv" secondAttribute="height" multiplier="18:19" id="Ydj-yU-p5Z"/>
@@ -172,23 +172,25 @@
                         <viewControllerLayoutGuide type="bottom" id="OZ0-5C-WZz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TU6-0O-POT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bluetooth Paring with TP9 Device" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orj-xo-ApG">
-                                <rect key="frame" x="49" y="322" width="277" height="23.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bluetooth Paring with BrainQue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orj-xo-ApG">
+                                <rect key="frame" x="76" y="323" width="262.33333333333331" height="90"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paring with TP9 device.  Please wait few seconds while we connect to your TP9 BAER device." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOb-Y0-5gD">
-                                <rect key="frame" x="16" y="360.5" width="343" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOb-Y0-5gD">
+                                <rect key="frame" x="16" y="428" width="382" height="87.666666666666629"/>
+                                <string key="text">Paring with BrainQue device. 
+ Please wait few seconds while we connect to your BrainQue device.</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f5h-Uo-2Js">
-                                <rect key="frame" x="169" y="194" width="37" height="36"/>
+                                <rect key="frame" x="169" y="194" width="76" height="37"/>
                                 <color key="color" red="0.91764705879999997" green="0.37254901959999998" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
@@ -221,25 +223,25 @@
                         <viewControllerLayoutGuide type="bottom" id="oFy-5d-E3k"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="m4H-6p-vKY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KtO-pJ-N4I">
-                                <rect key="frame" x="0.0" y="0.0" width="275" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="314" height="736"/>
                                 <color key="backgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.031372549019607843" green="0.11372549019607843" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menu_cell" id="9so-9G-PbT" customClass="MenuTableViewCell" customModule="BAER" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="275" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="314" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9so-9G-PbT" id="cVG-qE-LXD">
-                                            <rect key="frame" x="0.0" y="0.0" width="275" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="314" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn1-io-BEX">
-                                                    <rect key="frame" x="52" y="8" width="215" height="28"/>
+                                                    <rect key="frame" x="52" y="8" width="254" height="28"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
