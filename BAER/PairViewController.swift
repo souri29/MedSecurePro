@@ -28,16 +28,20 @@ class PairViewController: UIViewController {
 
         switch  pairBlueValueStatusLocal {
         case 2, 4:
-            //createAlert(titleText: "Bluetooth Disabled", messageText: "Swipe up from the button of the screen and activate Bluetooth")
-            print("testing")
+            createAlert(titleText: "Bluetooth Disabled", messageText: "Swipe up from the button of the screen and activate Bluetooth")
+            //print("testing")
         case 0:
-            print("Unknown")
+            createAlert(titleText: "Bluetooth Unknown Error", messageText: "Swipe up from the button of the screen and activate Bluetooth")
+            //print("Unknown")
         case 1:
-            print("resetting")
+            createAlert(titleText: "Bluetooth is Resetting", messageText: "Swipe up from the button of the screen and activate Bluetooth")
+            //print("resetting")
         case 3:
-            print("Unauthorized")
+            createAlert(titleText: "Unauthorize Bluetooth Action", messageText: "Swipe up from the button of the screen and activate Bluetooth")
+            //print("Unauthorized")
         case 5:
-            print("Bluetooth is on")
+            createAlert(titleText: "Bluetooth Enabled", messageText: "Swipe up from the button of the screen and activate Bluetooth")
+            //print("Bluetooth is on")
         default:
             break;
     }
